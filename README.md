@@ -120,17 +120,8 @@ pip install -r requirements.txt
 
 ## 🔒 Notes
 
-- This project currently uses SQLite for simplicity (not for production use).
+- The API scans all available intermediary cryptocurrencies from Buda.com to find a valid conversion path between currencies, and selects the one that yields the best rate.
 - No authentication is enabled — it’s an open demo endpoint.
-
----
-
-## ✨ TODO (optional)
-
-- Add PostgreSQL support
-- Deploy to a cloud provider
-- Add support for more fiat currencies
-- Add caching layer for market data
 
 ---
 
